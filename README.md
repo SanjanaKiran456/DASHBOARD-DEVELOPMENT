@@ -11,6 +11,7 @@ DOMAIN : DATA ANALYSIS
 DURATION : 4 WEEKS
 
 MENTOR : NEELA SANTHOSH KUMAR
+
 EXPLANATION :
  open Power BI Desktop and go to “Home” → “Get Data”, then select CSV or the appropriate data source. Browse and upload the dataset, then click “Load” to bring the data into Power BI.
 Next, click “Transform Data” to open Power Query Editor for cleaning and preparing the dataset. Handle missing values by replacing or removing nulls, change data types (e.g., converting numerical and date fields), and rename columns for clarity. Remove duplicates if necessary and click “Close & Apply” to save changes.
