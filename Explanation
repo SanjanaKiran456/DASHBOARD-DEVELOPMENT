@@ -1,0 +1,43 @@
+Step 1: Import the Dataset
+Open Power BI Desktop.
+Click on “Home” → “Get Data” → Select CSV or the appropriate data source type.
+Browse and select your dataset file (e.g., holidify.csv).
+Click “Load” to import the data into Power BI.
+Step 2: Data Cleaning & Transformation (Power Query Editor)
+Click on “Transform Data” to open Power Query Editor.
+Handle Missing Values:
+Identify missing data using the filter option.
+Replace or remove null values.
+Change Data Types:
+Ensure numerical columns are set to "Whole Number" or "Decimal."
+Convert date columns to "Date/Time."
+Rename Columns for Clarity:
+Modify column names to be more descriptive 
+Remove Duplicates:
+Select the relevant column(s) → Click “Remove Duplicates.”
+Click “Close & Apply” to save transformations.
+Step 3: Creating Visualizations
+Go to the “Report” View in Power BI.
+Select a Visualization Type from the right-side panel (Bar chart).
+Drag and Drop Fields into the visualization:
+Example: If analyzing travel data, drag “City” to the X-axis and “Tourist Visits” to the Y-axis.
+Customize Visualization:
+Use formatting options to change colors, labels, and styles.
+Step 4: Adding Filters & Slicers
+Add Filters to Focus on Specific Data:
+Drag a field to the "Filters" pane to apply a filter.
+Use Slicers for Interactive Reports:
+Example: Add a slicer for "Country" to filter data by different locations dynamically.
+Step 5: Creating Insights & Analysis
+Use DAX (Data Analysis Expressions) for Calculations:
+Example: Create a new column to categorize sentiment based on reviews.
+Example formula: Sentiment = IF([Rating] > 3, "Positive", "Negative")
+Find Key Insights from the Data:
+Identify trends, highest/lowest values, and comparisons.
+Step 6: Publishing & Sharing Reports
+Click on "Publish" to upload your report to Power BI Service.
+Share reports with team members or stakeholders.
+Embed reports in websites or applications if needed.
+Final Output
+You now have interactive dashboards and reports providing insights from your dataset.
+Users can filter, analyze trends, and gain meaningful insights from the visualizations.
